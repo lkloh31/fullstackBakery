@@ -1,0 +1,70 @@
+body {
+  background-color: rgb(201, 201, 201);
+  color: rgb(49, 49, 49);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  padding: 20px;
+  margin: 5px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.brand {
+  color: rgb(142, 40, 19);
+  text-transform: uppercase;
+  font-size: 3.4rem;
+  /* padding: 5px;
+  margin: 20px; */
+}
+
+nav {
+  display: flex;
+  align-items: flex-end;
+  gap: 4ch;
+  text-transform: uppercase;
+}
+
+a:link {
+  text-decoration: none;
+  color: rgb(82, 50, 50);
+  font-size: 1.1rem;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  gap: 3ch;
+}
+
+aside li {
+  background-color: rgb(149, 28, 28);
+  color: white;
+  display: flex;
+  box-sizing: border-box;
+  border-radius: 10px;
+  width: 150px;
+  margin: 5px;
+  padding: 5px;
+  gap: 2ch;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.testimonial {
+  background-color: rgb(215, 204, 178);
+  font-style: italic;
+}
+
+footer {
+  background-color: rgb(61, 49, 49);
+  color: white;
+  padding: 10px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100vw;
+  text-align: center;
+}
